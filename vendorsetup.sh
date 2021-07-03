@@ -2,6 +2,7 @@
 
 # Override hostname to make builds more reproducible and avoid leaking info
 export BUILD_HOSTNAME=OwlHouse-build
+export BUILD_USERNAME=android-build
 
 # ABI compatibility checks fail for several reasons:
 #   - The update to Clang 12 causes some changes, but no breakage has been
