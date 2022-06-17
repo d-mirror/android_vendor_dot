@@ -180,7 +180,10 @@ PRODUCT_PACKAGES += \
 
 # IORap app launch prefetching using Perfetto traces and madvise
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.iorapd.enable=true
+    ro.iorapd.enable=false \
+    iorapd.perfetto.enable=false \
+    iorapd.readahead.enable=false \
+    persist.device_config.runtime_native_boot.iorap_readahead_enable=false
 
 # Gapps
 ifeq ($(WITH_GAPPS), true)
