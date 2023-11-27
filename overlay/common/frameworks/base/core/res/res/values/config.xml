@@ -127,4 +127,15 @@
 
      <!-- Flag indicating which package name can access DeviceConfig table -->
     <string name="config_deviceConfiguratorPackageName" translatable="false">org.protonaosp.deviceconfig</string>
+
+    <!-- Alter build parameters for avoiding hardware attestation enforcement -->
+    <string-array name="config_spoofBuildGms" translatable="false">
+        <item>PropValue;DEVICE;bullhead</item>
+        <item>PropValue;ID;OPR6.170623.013</item>
+        <item>PropValue;FINGERPRINT;google/bullhead/bullhead:8.0.0/OPR6.170623.013/4283548:user/release-keys</item>
+        <item>PropValue;MODEL;Nexus 5X</item>
+        <item>PropValue;PRODUCT;bullhead</item>
+        <item>VersionField;FIRST_SDK_INT;24</item>
+        <item>VersionFieldString;SECURITY_PATCH;2017-08-05</item>
+    </string-array>
 </resources>
