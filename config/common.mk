@@ -220,3 +220,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Dot_props
 $(call inherit-product, vendor/dot/config/dot_props.mk)
+
+# Signing keys
+$(call inherit-product, vendor/keys/keys.mk)
